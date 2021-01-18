@@ -29,12 +29,13 @@ pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-
 Please use this [link](https://www.raspberrypi.org/software/operating-systems/) to install os in raspberry pi.  
 You can also check how to install TensorFlow Lite in [link](https://www.tensorflow.org/lite/guide/python).
 
+
+- Arduino Uno
+
+<img src="https://user-images.githubusercontent.com/63901518/104931820-49c81200-59ea-11eb-8cda-e51dcbdccccf.png" height=200>
+
 ## How to run
 
 ## How to train
 Basically, you can see a friendly description through this [repository](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi) to obtain a TF model for raspberry pi.	If you already have the model you want to use, the only important part you need to do is convert the model to the tf_lite model.  
 We provide an example model for distinguishing between red, green, yellow, and orange vehicles and you can run 'server.py' to see if they are running properly.
-
-- Arduino Uno
-
-<img src="https://user-images.githubusercontent.com/63901518/104931820-49c81200-59ea-11eb-8cda-e51dcbdccccf.png" height=200>
