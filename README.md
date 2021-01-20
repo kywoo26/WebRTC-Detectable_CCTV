@@ -1,7 +1,7 @@
 # WebRTC-Detectable_CCTV
 
 ## Introduction
-The project is to find a specific car on alleay and highways. Using the Raspberry Pi's camera module, it will act as a CCTV. The alarm will sound and serve to identify the situation through the LCD by arduino, after finding a particular car.
+The project is to find a specific car on alleys and highways. Using the Raspberry Pi's camera module, it will act as a CCTV. The alarm will sound and serve to identify the situation through the LCD by arduino, after finding a particular car.
 
 This proceeds with only four CCTVs (Raspberry Pi). But considering this as a actual situation, it can be applied to CCTVs and control systems that manage them all over the country and contribute as a solution for crime prevention.
 
