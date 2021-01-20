@@ -35,7 +35,33 @@ You can also check how to install TensorFlow Lite in [link](https://www.tensorfl
 <img src="https://user-images.githubusercontent.com/63901518/104931820-49c81200-59ea-11eb-8cda-e51dcbdccccf.png" height=200>
 
 ## How to run
+run `npm install` and then `npm start` in the main directory.  
+Then open the browser at `localhost:3012` or `[your network ip/ public dns]:3012`.
 
 ## How to train
 Basically, you can see a friendly description through this [repository](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi) to obtain a TF model for raspberry pi.	If you already have the model you want to use, the only important part you need to do is convert the model to the tf_lite model.  
 We provide an example model for distinguishing between red, green, yellow, and orange vehicles and you can run 'server.py' to see if they are running properly.
+
+## How to Configuration
+
+Configurations can be found in `app.js` and `public/js/main.js`.  
+Replace the ssl certificates `ssl/key.pem` and `ssl/cert.pem` with your own.  
+
+<pre><code>
+/**
+ * RTCPeerConnection configuration 
+ */
+const configuration = {
+    "iceServers": [{
+        "urls": "stun:stun.l.google.com:19302"
+    },
+
+    {
+        url: 'turn_url',
+        credential: '',
+        username: ''
+    }
+    ]
+}
+</pre></code>
+Replace the stun/turn server configuration with your own server.  
